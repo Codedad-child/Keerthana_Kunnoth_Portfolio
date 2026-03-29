@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url("/assets/fonts/PlusJakartaSans.woff2") format("woff2");
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Bricolage Grotesque";
+  src: url("/assets/fonts/BricolageGrotesque.woff2") format("woff2");
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+@layer base {
+  /* Light mode */
+  :root {
+    --radius: 0.5rem;
+    /* near-white warm */
+    --background: 0.96 0.008 215;
+    --foreground: 0.11 0.015 215;
+    --card: 1 0 0;
+    --card-foreground: 0.11 0.015 215;
+    --popover: 1 0 0;
+    --popover-foreground: 0.11 0.015 215;
+    /* teal accent */
+    --primary: 0.72 0.12 188;
+    --primary-foreground: 0.11 0.015 215;
+    --secondary: 0.92 0.01 215;
+    --secondary-foreground: 0.11 0.015 215;
+    --muted: 0.92 0.01 215;
+    --muted-foreground: 0.5 0.025 215;
+    --accent: 0.72 0.12 188;
+    --accent-foreground: 0.11 0.015 215;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.85 0.015 215;
+    --input: 0.85 0.015 215;
+    --ring: 0.72 0.12 188;
+    /* brand teal */
+    --teal: 0.72 0.12 188;
+    --teal-bright: 0.8 0.12 188;
+    --slate-card: 0.92 0.01 215;
+    --slate-panel: 0.88 0.012 215;
+    --text-secondary: 0.5 0.025 215;
+    --chart-1: 0.646 0.222 41.116;
+    --chart-2: 0.6 0.118 184.704;
+    --chart-3: 0.398 0.07 227.392;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+    --sidebar: 0.96 0.008 215;
+    --sidebar-foreground: 0.11 0.015 215;
+    --sidebar-primary: 0.72 0.12 188;
+    --sidebar-primary-foreground: 0.11 0.015 215;
+    --sidebar-accent: 0.92 0.01 215;
+    --sidebar-accent-foreground: 0.11 0.015 215;
+    --sidebar-border: 0.85 0.015 215;
+    --sidebar-ring: 0.72 0.12 188;
+  }
+
+  /* Dark mode — industrial-tech */
+  .dark {
+    --background: 0.09 0.012 215;
+    --foreground: 0.92 0.015 215;
+    --card: 0.14 0.018 213;
+    --card-foreground: 0.92 0.015 215;
+    --popover: 0.17 0.02 213;
+    --popover-foreground: 0.92 0.015 215;
+    /* teal */
+    --primary: 0.72 0.12 188;
+    --primary-foreground: 0.09 0.012 215;
+    --secondary: 0.17 0.02 213;
+    --secondary-foreground: 0.92 0.015 215;
+    --muted: 0.17 0.02 213;
+    --muted-foreground: 0.7 0.025 215;
+    --accent: 0.72 0.12 188;
+    --accent-foreground: 0.09 0.012 215;
+    --destructive: 0.704 0.191 22.216;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.22 0.025 215;
+    --input: 0.22 0.025 215;
+    --ring: 0.72 0.12 188;
+    --teal: 0.72 0.12 188;
+    --teal-bright: 0.8 0.12 188;
+    --slate-card: 0.14 0.018 213;
+    --slate-panel: 0.17 0.02 213;
+    --text-secondary: 0.7 0.025 215;
+    --chart-1: 0.72 0.12 188;
+    --chart-2: 0.696 0.17 162.48;
+    --chart-3: 0.769 0.188 70.08;
+    --chart-4: 0.627 0.265 303.9;
+    --chart-5: 0.645 0.246 16.439;
+    --sidebar: 0.14 0.018 213;
+    --sidebar-foreground: 0.92 0.015 215;
+    --sidebar-primary: 0.72 0.12 188;
+    --sidebar-primary-foreground: 0.09 0.012 215;
+    --sidebar-accent: 0.17 0.02 213;
+    --sidebar-accent-foreground: 0.92 0.015 215;
+    --sidebar-border: 0.22 0.025 215;
+    --sidebar-ring: 0.72 0.12 188;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Bricolage Grotesque", "Plus Jakarta Sans", system-ui,
+      sans-serif;
+  }
+}
+
+/* Circuit board SVG pattern used in hero */
+.circuit-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cg fill='none' stroke='%2319C6C3' stroke-width='0.5' opacity='0.15'%3E%3Cpath d='M10 10 L30 10 L30 30'/%3E%3Cpath d='M70 10 L90 10 L90 30'/%3E%3Cpath d='M10 70 L10 90 L30 90'/%3E%3Cpath d='M70 90 L90 90 L90 70'/%3E%3Cpath d='M50 0 L50 40'/%3E%3Cpath d='M0 50 L40 50'/%3E%3Cpath d='M60 50 L100 50'/%3E%3Cpath d='M50 60 L50 100'/%3E%3Ccircle cx='50' cy='50' r='3'/%3E%3Ccircle cx='30' cy='10' r='2'/%3E%3Ccircle cx='70' cy='10' r='2'/%3E%3Ccircle cx='10' cy='30' r='2'/%3E%3Ccircle cx='90' cy='70' r='2'/%3E%3Cpath d='M20 50 L20 20 L50 20'/%3E%3Cpath d='M80 50 L80 80 L50 80'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Grid pattern for section backgrounds */
+.grid-pattern {
+  background-image: linear-gradient(
+      oklch(var(--border) / 0.4) 1px,
+      transparent 1px
+    ),
+    linear-gradient(to right, oklch(var(--border) / 0.4) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Teal glow effect */
+.teal-glow {
+  box-shadow: 0 0 20px oklch(var(--teal) / 0.3), 0 0 40px
+    oklch(var(--teal) / 0.1);
+}
+
+/* Timeline line */
+.timeline-line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    oklch(var(--teal)),
+    oklch(var(--teal) / 0.1)
+  );
+}
