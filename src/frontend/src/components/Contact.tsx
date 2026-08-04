@@ -40,7 +40,7 @@ export default function Contact() {
           className="text-center mb-16"
         >
           <span className="text-teal text-xs font-bold uppercase tracking-widest">
-            Open to Opportunities
+            Finding Oppertunities
           </span>
           <h2 className="font-display font-bold text-3xl sm:text-4xl mt-2 uppercase tracking-wide text-foreground">
             Get In Touch
