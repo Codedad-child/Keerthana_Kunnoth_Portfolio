@@ -40,7 +40,7 @@ export default function Contact() {
           className="text-center mb-16"
         >
           <span className="text-teal text-xs font-bold uppercase tracking-widest">
-            Finding Oppertunities
+            Open to Oppertunities
           </span>
           <h2 className="font-display font-bold text-3xl sm:text-4xl mt-2 uppercase tracking-wide text-foreground">
             Get In Touch
@@ -58,12 +58,11 @@ export default function Contact() {
             className="space-y-6"
           >
             <h3 className="font-display font-bold text-xl uppercase tracking-wide text-foreground">
-              Looking for an MES Consultant or MES Integration Engineer?
+              Looking for an UI/UX designer?
             </h3>
             <p className="text-muted-foreground leading-relaxed text-sm">
               I&apos;m open to opportunities where I can contribute my expertise
-              in MES implementation, system integration, and industrial
-              automation.
+              in UI/UX design.
             </p>
             <p className="text-muted-foreground leading-relaxed text-sm">
               If you&apos;re hiring or would like to discuss potential roles,
@@ -82,36 +81,36 @@ export default function Contact() {
                 <div className="w-9 h-9 rounded border border-border group-hover:border-teal/50 flex items-center justify-center transition-colors">
                   <Linkedin className="w-4 h-4" />
                 </div>
-                <span>linkedin.com/in/adarsh-p-7103701a1</span>
+                <span>linkedin.com/in/keerthana-kunnoth-94444b219</span>
               </a>
               <a
-                href="mailto:adarshpatuathi@gmail.com"
+                href="keerthanavilas01@gmail.com"
                 className="flex items-center gap-3 text-sm text-muted-foreground hover:text-teal transition-colors group"
                 data-ocid="contact.link"
               >
                 <div className="w-9 h-9 rounded border border-border group-hover:border-teal/50 flex items-center justify-center transition-colors">
                   <Mail className="w-4 h-4" />
                 </div>
-                <span>adarshpatuathi@gmail.com</span>
+                <span>keerthanavilas01@gmail.com</span>
               </a>
               <a
-                href="tel:+918921749345"
+                href="tel:+447799419778 "
                 className="flex items-center gap-3 text-sm text-muted-foreground hover:text-teal transition-colors group"
                 data-ocid="contact.link"
               >
                 <div className="w-9 h-9 rounded border border-border group-hover:border-teal/50 flex items-center justify-center transition-colors">
                   <Phone className="w-4 h-4" />
                 </div>
-                <span>+91 8921749345</span>
+                <span>+447799419778 </span>
               </a>
               <div className="flex items-start gap-3 text-sm text-muted-foreground">
                 <div className="w-9 h-9 rounded border border-border flex items-center justify-center shrink-0 mt-0.5">
                   <MapPin className="w-4 h-4" />
                 </div>
                 <span>
-                  Adarsh Bhavan, Keezhathur, Mambaram P.O.,
+                  house details
                   <br />
-                  Kannur, Kerala, India — 670741
+                  Dundee, United Kingdom
                 </span>
               </div>
             </div>
