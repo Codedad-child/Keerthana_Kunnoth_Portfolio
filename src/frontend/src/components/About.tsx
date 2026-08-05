@@ -45,25 +45,27 @@ export default function About() {
             className="space-y-5"
           >
             <p className="text-foreground/90 leading-relaxed text-base">
-              I&apos;m <strong className="text-teal">Adarsh P</strong>, a
+              I&apos;m <strong className="text-teal">Keerthana K</strong>, a
               results-driven{" "}
-              <strong className="text-teal">MES Consultant</strong> with a
-              strong track record of leading successful MES implementations
-              within the automation sector.
+              <strong className="text-teal">UI/UX designer</strong> with
+              hands-on experience across the design process from discovery to
+              delivery, currently pursuing an MSc in Applied Artificial
+              Intelligence and User Experience.
             </p>
             <p className="text-muted-foreground leading-relaxed text-base">
-              Experienced in guiding cross-functional teams to optimize
-              manufacturing processes, ensure seamless system integration and
-              drive data-centric decision-making. Adept at managing project
-              timelines, mentoring team members, and delivering robust technical
-              solutions aligned with business objectives.
+              Skilled in creating wireframes, prototypes and high-fidelity
+              mock-ups in Figma, translating business requirements into
+              user-centred design solutions, and collaborating closely with
+              product managers, developers and other stakeholders to align on
+              vision and execution.
             </p>
             <p className="text-muted-foreground leading-relaxed text-base">
-              Proven leadership in aligning technology with operational goals to
-              enhance overall production efficiency. Currently working as an{" "}
-              <strong className="text-teal">MES Consultant at Capgemini</strong>
-              , implementing the MPDV HydraX MES platform for Infineon
-              Technologies (Germany).
+              Grounded in user research and usability testing, with a strong
+              focus on accessibility and design best practices. Currently
+              studying{" "}
+              <strong className="text-teal">
+                MSc Applied Artificial Intelligence and User Experience.
+              </strong>
             </p>
 
             <div className="mt-6">
