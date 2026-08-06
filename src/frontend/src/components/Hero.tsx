@@ -4,18 +4,16 @@ import { ArrowRight, Download } from "lucide-react";
 import { motion } from "motion/react";
 
 const EXPERTISE_CHIPS = [
-  "HydraX MES",
-  "Opera MES",
-  "Sky MES",
-  "Aveva MES",
-  "Schneider EcoStruxure",
-  "Emerson Movicon",
-  "OPC UA",
-  "BMS / SCADA",
+  "UI/UX Design & Prototyping",
+  "User-Centred Design Solutions",
+  "UX Research & Usability Testing",
+  "Design Best Practices & Accessibility",
+  "Stakeholder Collaboration",
+  "Data Analysis & Visualisation ",
 ];
 
 const CV_URL =
-  "/assets/uploads/adarsh_p_resume-30-03-2026-019d3afb-b5e9-70e3-ae75-f8997dcdcdf6-1.pdf";
+  "/assets/uploads/Keerthana_Kunnoth_Resume_UXDesigner-07-08-2026-019d3afb-b5e9-70e3-ae75-f8997dcdcdf6-1.pdf";
 
 export default function Hero() {
   const scrollToProjects = () => {
@@ -62,9 +60,9 @@ export default function Hero() {
             transition={{ duration: 0.7, delay: 0.1 }}
             className="font-display font-bold text-4xl sm:text-5xl lg:text-6xl xl:text-7xl leading-[1.05] tracking-tight text-foreground mb-4"
           >
-            <span className="text-teal">Adarsh P</span>
+            <span className="text-teal">Keerthana Kunnoth</span>
             <br />
-            MES Consultant
+            UI/UX Designer
           </motion.h1>
 
           <motion.p
@@ -73,11 +71,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.25 }}
             className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-lg"
           >
-            Results-driven MES professional with proven experience in delivering
-            successful implementations across multiple manufacturing domains.
-            Skilled in system integration using SQL and OPC UA, enabling
-            seamless data flow and supporting data-driven decision-making to
-            improve operational efficiency.
+            Results-driven UI/UX designer with hands-on experience across the
+            design process from discovery to delivery, currently pursuing an MSc
+            in Applied Artificial Intelligence and User Experience.
           </motion.p>
 
           <motion.div
@@ -110,14 +106,14 @@ export default function Hero() {
               View Projects
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
-            <a href={CV_URL} download="Adarsh_P_CV.pdf">
+            <a href={CV_URL} download="Keerthana_Kunnoth_Resume.pdf">
               <Button
                 variant="outline"
                 className="border-border text-foreground hover:border-teal hover:text-teal font-bold uppercase tracking-wider text-sm px-6 py-5 transition-all"
                 data-ocid="hero.secondary_button"
               >
                 <Download className="mr-2 w-4 h-4" />
-                Download CV
+                Download resume
               </Button>
             </a>
           </motion.div>
@@ -133,10 +129,10 @@ export default function Hero() {
       >
         <div className="container mx-auto px-4 sm:px-6 py-4 grid grid-cols-2 sm:grid-cols-4 gap-4">
           {[
-            { label: "Years Experience", value: "6+" },
+            { label: "Years Experience", value: "1+" },
             { label: "Major Projects", value: "5+" },
             { label: "Certifications", value: "7" },
-            { label: "Languages Spoken", value: "4" },
+            { label: "Languages Spoken", value: "3" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="font-display font-bold text-2xl text-teal">

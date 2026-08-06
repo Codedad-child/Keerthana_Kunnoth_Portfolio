@@ -45,8 +45,8 @@ export default function About() {
             className="space-y-5"
           >
             <p className="text-foreground/90 leading-relaxed text-base">
-              I&apos;m <strong className="text-teal">Keerthana K</strong>, a
-              results-driven{" "}
+              I&apos;m <strong className="text-teal">Keerthana Kunnoth</strong>,
+              a results-driven{" "}
               <strong className="text-teal">UI/UX designer</strong> with
               hands-on experience across the design process from discovery to
               delivery, currently pursuing an MSc in Applied Artificial
