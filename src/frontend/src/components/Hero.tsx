@@ -12,8 +12,7 @@ const EXPERTISE_CHIPS = [
   "Data Analysis & Visualisation ",
 ];
 
-const CV_URL =
-  "/assets/uploads/Keerthana_Kunnoth_Resume_UXDesigner-07-08-2026-019d3afb-b5e9-70e3-ae75-f8997dcdcdf6-1.pdf";
+const CV_URL = "/Keerthana_Kunnoth_Resume.pdf";
 
 export default function Hero() {
   const scrollToProjects = () => {
