@@ -100,8 +100,8 @@ export default function About() {
               <div className="grid grid-cols-2 gap-6">
                 {[
                   {
-                    value: "6+",
-                    label: "Years in Automation",
+                    value: "1+",
+                    label: "Years in Designing",
                     color: "text-teal",
                   },
                   {
