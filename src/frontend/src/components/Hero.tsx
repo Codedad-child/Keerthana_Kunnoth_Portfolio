@@ -12,7 +12,8 @@ const EXPERTISE_CHIPS = [
   "Data Analysis & Visualisation ",
 ];
 
-const CV_URL = "/Keerthana_Kunnoth_Resume.pdf";
+const CV_URL =
+  "/assets/uploads/Keerthana_Kunnoth_Resume_UXDesigner-07-08-2026-019d3afb-b5e9-70e3-ae75-f8997dcdcdf6-1.pdf";
 
 export default function Hero() {
   const scrollToProjects = () => {
@@ -105,7 +106,10 @@ export default function Hero() {
               View Projects
               <ArrowRight className="ml-2 w-4 h-4" />
             </Button>
-            <a href={CV_URL} download="Keerthana_Kunnoth_Resume.pdf">
+            <a
+              href={CV_URL}
+              download="Keerthana_Kunnoth_Resume.pdfKeerthana_Kunnoth_Resume_UXDesigner-07-08-2026-019d3afb-b5e9-70e3-ae75-f8997dcdcdf6-1.pdf"
+            >
               <Button
                 variant="outline"
                 className="border-border text-foreground hover:border-teal hover:text-teal font-bold uppercase tracking-wider text-sm px-6 py-5 transition-all"
