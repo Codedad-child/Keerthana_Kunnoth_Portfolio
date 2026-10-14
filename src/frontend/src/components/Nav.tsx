@@ -52,7 +52,7 @@ export default function Nav() {
           </div>
           <div className="flex flex-col leading-none">
             <span className="font-display font-bold text-sm tracking-widest text-foreground uppercase">
-              MES
+              UI/UX
             </span>
             <span className="font-display text-[10px] tracking-wider text-teal uppercase">
               Portfolio
