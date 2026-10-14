@@ -2,16 +2,12 @@ import { CheckCircle } from "lucide-react";
 import { motion } from "motion/react";
 
 const SPECIALIZATIONS = [
-  "MES Implementation (Opera, Sky, Aveva, HydraX)",
-  "SCADA Systems (Emerson Movicon)",
-  "SAP/ERP Integration (Node-RED, SSIS)",
-  "OPC UA / OPC DA / Modbus TCP/IP",
-  "SQL Server & PostgreSQL",
-  "DevExpress / Telerik / Crystal Reports",
-  "Industrial Cybersecurity (Waterfall)",
-  "PLC Programming (TIA Portal, RSLogix 500)",
-  "BMS Architecture (Schneider EcoStruxure)",
-  "Team Leadership & Project Management",
+  "UI/UX Design & Prototyping",
+  "User-Centred Design Solutions",
+  "UX Research & Usability Testing",
+  "Design Best Practices & Accessibility",
+  "Stakeholder Collaboration",
+  "Data Analysis & Visualisation ",
 ];
 
 export default function About() {
